@@ -9,8 +9,8 @@ const router = express.Router();
 // Adding new Categories
 router.post(
   "/add",
-  authenticate,
-  restrictTo("admin"),
+  //authenticate,
+  //restrictTo("admin"),
   async (request, response) => {
 
     try {
