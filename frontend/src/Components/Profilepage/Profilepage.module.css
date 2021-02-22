@@ -1,0 +1,125 @@
+.profileheader{
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.profileform{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid;
+    width: 700px;
+    height: 750px;
+    padding: 10px;
+    box-shadow: 20px 10px #888888;
+    margin: 20px auto;
+    
+    
+    
+
+}
+
+.submitregister{
+    background-color: orange;
+    margin-left: 60px;
+
+}
+
+.submitregister:hover{
+    color: white;
+    background-color: orange;
+}
+
+.formgroupgender[type=radio]{
+    cursor: pointer;
+    -ms-transform: scale(.6); /* IE 9 */
+    -webkit-transform: scale(.6); /* Chrome, Safari, Opera */
+    transform: scale(.8);
+    background-color: red;
+    
+ 
+
+}
+.formgroupgender {
+    font-size: 15px;
+    margin-left: 550px;
+    display: flex;
+    margin-left: 16px;
+   
+   
+
+    
+
+}
+
+.formemail{
+
+    margin-left: -23px;
+}
+
+.formdate{
+
+    margin-left: 39px;
+
+}
+.formplace{
+    margin-left: 25px;
+
+}
+.formhometown{
+    margin-left: -10px;
+}
+.formlang{
+    margin-left: -8px;
+
+}
+.forminterest{
+    margin-left: -35px;
+
+}
+
+.formothers{
+    margin-left: 11px;
+}
+
+.photo{
+    
+    border: 1px dashed black;
+    border-radius: 50px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width:100px;
+    height: 100px;
+ 
+}
+
+
+.photoInput {
+    width: 95px;
+    margin-left: 20px;
+
+
+}
+
+.containersetting{
+    
+    margin-top: 20px;
+    
+    margin-left: 20px;
+    flex-direction: row;
+}
+
+.deletecontainer{
+    margin-top: 10px;
+    margin-left: 30px;
+   
+    
+}
+.deletecontainer1{
+    
+    background-color: red;
+    
+}

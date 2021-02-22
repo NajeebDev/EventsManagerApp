@@ -1,0 +1,66 @@
+.main {
+  /* border: 1px solid red; */
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.events_container {
+  width: 100%;
+}
+
+.event {
+  display: flex;
+  /* outline: 1px solid red; */
+  width: 100%;
+  padding: 0px;
+  border-radius: 10px;
+  background-color: rgba(173, 216, 230, 0.288);
+  margin: 15px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.events_bg {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 150px;
+  width: 30%;
+}
+
+.events_data {
+  border-radius: 10px;
+  height: 10px;
+  width: 70%;
+  padding: 10px 0;
+}
+
+.events_date,
+.events_name_category,
+.eventtype,
+.language,
+.description {
+  text-align: left;
+  margin: 0 0 0 10px;
+  padding: 1px;
+  color: black;
+  font-size: 18px;
+}
+
+.location_text,
+.category_text {
+  text-align: left !important;
+  margin: 0;
+  padding: 10px;
+  font-size: 22px;
+  color: black;
+}
+
+.savedEvents {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  
+}
+
+span {
+  font-weight: bold;
+}

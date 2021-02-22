@@ -1,0 +1,97 @@
+.newEventForm {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  /* border: blueviolet solid 2px; */
+  margin: 20px auto;
+  max-width: 650px;
+}
+
+.eventHead {
+  padding: 5px;
+  margin: 10px 30px;
+  border-radius: 5px;
+}
+
+.eventNote {
+  font-size: 18px;
+  width: 99%;
+  float: left;
+  padding: 5px;
+  background-color: rgba(173, 216, 230, 0.582);
+  margin: 10px 30px;
+  border-radius: 5px;
+}
+
+.inputContainer {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  /* border: red solid 2px; */
+  width: 650px;
+  margin: 0px;
+}
+
+.radioContainer {
+  /* border: red solid 2px; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 70%;
+}
+
+.radio {
+  /* border: red solid 2px; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  padding: 15px;
+}
+
+.inputContainer input {
+  width: 80%;
+  height: 35px;
+  margin: 5px;
+  font-size: 15px;
+}
+
+.inputContainer label {
+  width: 20%;
+  height: 40px;
+  font-size: 18px;
+  padding: 10px 5px;
+}
+
+.catDropDown {
+  width: 80%;
+  height: 40px;
+  margin: 0 5px;
+}
+
+.description {
+  width: 80%;
+  margin: 5px;
+}
+
+.saveBtn {
+  float: right;
+  width: 78%;
+  height: 40px;
+  background-color: orange;
+  font-size: 25px;
+  border-radius: 10px;
+  border: none;
+  margin: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.saveBtn:hover {
+  background-color: orange;
+  color: white;
+  border: none;
+}

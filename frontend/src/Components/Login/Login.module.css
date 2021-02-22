@@ -1,0 +1,49 @@
+.container{
+   text-align: center;
+   padding-bottom: 58px;
+   
+}
+h1{
+    margin-bottom: 50px;
+}
+
+.form{
+    line-height: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.login{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 15px;
+    width: 503px;
+    background-color: orange;
+
+}
+/* .login:hover{
+    color: white;
+    background-color: orange;
+} */
+
+.formlink{
+    display: block;
+    font-size:15px;
+}
+.containerhelp{
+    font-size: 15px;
+}
+
+.formcontainer{
+    box-shadow: 20px 10px #888888;
+    border: 3px solid;
+    height: 400px;
+    width: 700px;
+    margin: 20px auto;
+    
+
+}
+
+.containerpw{
+    margin-left: 5px;
+}

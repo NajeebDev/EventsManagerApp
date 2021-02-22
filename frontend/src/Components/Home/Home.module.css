@@ -1,0 +1,114 @@
+.main {
+  /* border: 1px solid red; */
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+/* Home start */
+.upcoming_events,
+.events_by_city,
+.events_by_Category {
+  border-radius: 10px;
+  /* border: 1px solid green; */
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.events_head h2 {
+  margin: 0;
+  padding: 5px;
+}
+
+.events_text {
+  background-color: white;
+  margin: 0 5px 15px 5px;
+  padding: 0px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.events_date,
+.events_name_category {
+  text-align: left;
+  margin: 0 0 0 10px;
+  padding: 1px;
+  color: black;
+  font-size: 16px;
+}
+
+.events_bg {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 200px;
+  padding: 0 5px;
+  width: 100%;
+}
+
+.location_text,
+.category_text {
+  text-align: left !important;
+  margin: 0;
+  padding: 10px;
+  font-size: 22px;
+  color: black;
+}
+/* Home end */
+
+.events_container {
+  width: 100%;
+}
+
+.event {
+  display: flex;
+  /* outline: 1px solid red; */
+  width: 100%;
+  padding: 0px;
+  border-radius: 10px;
+  background-color: rgba(173, 216, 230, 0.377);
+  margin: 15px 0;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.event_bg {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  height: 150px;
+  width: 30%;
+}
+
+.events_data {
+  border-radius: 10px;
+  height: 10px;
+  width: 70%;
+  padding: 10px 0;
+}
+
+.events_date,
+.events_name_category,
+.eventtype,
+.language,
+.description {
+  text-align: left;
+  margin: 0 0 0 10px;
+  padding: 1px;
+  color: black;
+  font-size: 18px;
+}
+
+.location_text,
+.category_text {
+  text-align: left !important;
+  margin: 0;
+  padding: 10px;
+  font-size: 22px;
+  color: black;
+}
+
+.savedEvents {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+span {
+  font-weight: bold;
+}

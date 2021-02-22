@@ -1,0 +1,27 @@
+.containerheader {
+  /* outline: 1px solid red; */
+  max-width: 1000px;
+  margin: 50px auto;
+  padding: 10px;
+  background-color: rgba(173, 216, 230, 0.377);
+  border-radius: 10px;
+}
+
+.headerparag {
+  line-height: 45px;
+  font-size: 20px;
+  color: black;
+  text-align: left;
+  padding-bottom: 93px;
+}
+
+.header {
+  color: orange;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.indent {
+  color: orange;
+  font-weight: bolder;
+}

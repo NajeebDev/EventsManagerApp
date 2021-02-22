@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Raleway:wght@100&family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Raleway:wght@100&family=Roboto+Slab&family=Teko:wght@300&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  /* font-family: 'Hammersmith One', sans-serif; */
+  /* font-family: 'Hammersmith One', sans-serif; */
+  font-family: "Hammersmith One", sans-serif;
+
+  display: block;
+  position: relative;
+}
+
+.slick-next:before,
+.slick-prev:before {
+  color: black !important;
+  font-size: 35px;
+  margin: -30px;
+}
+
+body::after {
+  content: "";
+
+  /* background: url(./Images/images\ \(3\).jpeg); */
+  background-color:rgba(94, 198, 233, 0.418);
+
+
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+input:hover {
+  background-color: rgba(119, 136, 153, 0.342) !important;
+}
+
+input {
+  background-color: none;
+}

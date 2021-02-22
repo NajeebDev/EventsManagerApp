@@ -1,0 +1,12 @@
+.main {
+  max-width:500px;
+  margin: 10px auto;
+}
+
+.notifications {
+  padding: 8px 15px;
+  background-color: rgba(228, 110, 110, 0.781);
+  margin: 5px;
+  border-radius: 10px;
+  font-size: 18px;
+}

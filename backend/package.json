@@ -1,0 +1,44 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "dependencies": {
+    "authenticate": "^0.1.5",
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.5.3",
+    "concurrently": "^5.3.0",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "fileupload": "^1.0.0",
+    "i": "^0.3.6",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.9",
+    "multer": "^1.4.2",
+    "nodemailer": "^6.4.17",
+    "nodemon": "^2.0.6",
+    "passport": "^0.4.1",
+    "passport-jwt": "^4.0.0",
+    "path": "^0.12.7",
+    "react-bootstrap": "^1.4.3",
+    "react-flash-message": "^1.0.5",
+    "strategy": "^1.1.1",
+    "uuid": "^8.3.2"
+  },
+  "scripts": {
+    "start": "npm server",
+    "server": "nodemon server",
+    "frontend": "npm start --prefix ../frontend",
+    "dev": "concurrently \"npm run server\"  \" npm run frontend\" ",
+    "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "description": ""
+}

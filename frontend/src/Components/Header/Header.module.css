@@ -1,0 +1,144 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  height: 50px;
+  width: 100%;
+  background-color: orange;
+  /* padding: 0 20px; */
+  margin: 0;
+  
+}
+
+.logo {
+  margin: 0;
+  padding: 0;
+}
+
+.nav_list {
+  list-style-type: none;
+  display: flex;
+  /* border: 1px solid red; */
+  padding: 20px;
+  
+}
+
+.nav_list li a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px 15px 5px;
+  margin: 0;
+  /* border: 1px solid red; */
+  height: 50px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  
+}
+
+.nav_list li a:hover {
+  border-bottom: 4px solid #fff;
+  color: #fff;
+}
+
+.header_bg {
+  position: relative;
+  background: url(../../Images/codingCover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+
+
+  /* border: 1px solid red; */
+}
+
+.header_bg1 {
+  position: relative;
+  background: url(../../Images/abstract.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 200px;
+  width: 100%;
+
+}
+
+.header_text {
+  /* border: 1px solid red; */
+  width: 50%;
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+.header_tittel {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  color: #fff;
+  font-size: 30px;
+  margin: 0;
+  text-align: left;
+  /* font-weight: bold; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.btn {
+  height: 45px;
+  background-color: orange;
+  color: rgb(2, 0, 0);
+  font-size: 25px;
+  text-align: center;
+  padding: 5px 30px;
+  position: absolute;
+
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.btn:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+  .header_tittel {
+    font-size: 25px;
+  }
+
+  .btn {
+    height: 35px;
+    font-size: 20px;
+    padding: 0px 20px;
+  }
+
+  .header_text {
+    width: 80%;
+    top: 20px;
+    left: 20px;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 768px) {
+  .header_tittel {
+    font-size: 30px;
+  }
+
+  .btn {
+    height: 35px;
+    font-size: 20px;
+    padding: 0px 20px;
+  }
+
+  .header_text {
+    width: 80%;
+    top: 20px;
+    left: 20px;
+  }
+}

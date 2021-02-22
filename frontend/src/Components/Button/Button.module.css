@@ -1,0 +1,26 @@
+.btn{
+
+  padding:8px 20px  ;
+  border-radius:4px;
+  outline:none;
+  border:none;
+
+  font-size:18px;
+
+  color:#fff;
+  cursor:pointer;
+  background-color:blue
+}
+
+
+
+.btn:hover{
+    padding: 6px 18px;
+    transition: all 0.3s ease-out;
+    background-color:transparent;
+    color:white;
+
+    border-radius:4px
+
+
+}
