@@ -35,7 +35,6 @@
     "frontend": "npm start --prefix ../frontend",
     "dev": "concurrently \"npm run server\"  \" npm run frontend\" ",
     "heroku-postbuild": "npm install --prefix client && npm run build --prefix client"
-
   },
   "author": "",
   "license": "ISC",
