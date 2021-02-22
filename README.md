@@ -17,42 +17,19 @@ Jasmin
 ## Technologies
 * HTML5
 * CSS3
-* Javascript
-* React-bootstrap: 1.4.3
-* React Router DOM
+* React
 * Node.Js
-* Express: 4.17.1
+* Express
 * MongoDB
-* Modal Box CSS
-* Figma
-* Github
-* Heruko
 
 ## Setup 
   To run this project, install it locally using npm:
   
-
-
 $ cd frontend 
-
-
-
 $ npm install
-
-
-
 $ cd ..
-
-
-
 $ cd backend
-
-
-
 $ npm install
-
-
-
 $ npm run dev
 
 
